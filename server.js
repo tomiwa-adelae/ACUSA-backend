@@ -15,7 +15,8 @@ import feedbackRoute from "./routes/feedbackRoute.js";
 import articleRoute from "./routes/articleRoute.js";
 import newsRoute from "./routes/newsRoute.js";
 import archiveRoute from "./routes/archiveRoute.js";
-import galleryRoute from "./routes/gallyerRoute.js";
+import galleryRoute from "./routes/galleryRoute.js";
+import podcastRoute from "./routes/podcastRoute.js";
 
 // Initialize express app
 const app = express();
@@ -38,6 +39,7 @@ app.use("/api/articles", articleRoute);
 app.use("/api/news", newsRoute);
 app.use("/api/archives", archiveRoute);
 app.use("/api/gallery", galleryRoute);
+app.use("/api/podcasts", podcastRoute);
 
 app.get("/", (req, res) => {
 	res.send("Yes");
