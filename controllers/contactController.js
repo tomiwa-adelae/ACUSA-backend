@@ -28,7 +28,7 @@ const createContact = asyncHandler(async (req, res) => {
 					},
 					To: [
 						{
-							Email: `tomiwaadelae6@gmail.com`,
+							Email: `thetommedia@gmail.com`,
 							Name: `ACUSA MEDIA`,
 						},
 					],
