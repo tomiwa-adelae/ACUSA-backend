@@ -24,11 +24,11 @@ const createFeedback = asyncHandler(async (req, res) => {
 				{
 					From: {
 						Email: "thetommedia@gmail.com",
-						Name: "ACUSA MEDIA",
+						Name: "Webmaster - ACUSA MEDIA",
 					},
 					To: [
 						{
-							Email: `tomiwaadelae6@gmail.com`,
+							Email: `acusamedia3@gmail.com`,
 							Name: `ACUSA MEDIA`,
 						},
 					],

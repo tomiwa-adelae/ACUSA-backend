@@ -12,7 +12,7 @@ const getPhotos = asyncHandler(async (req, res) => {
 		await cloudinary.v2.api.resources(
 			{
 				type: "upload",
-				prefix: "acusamedia/gallery", // add your folder
+				prefix: "gallery", // add your folder
 			},
 			function (error, result) {
 				res.json(result.resources);
