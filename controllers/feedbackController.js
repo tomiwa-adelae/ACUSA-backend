@@ -42,7 +42,7 @@ const createFeedback = asyncHandler(async (req, res) => {
                                 >
                                     <h1>Dear ACUSA MEDIA,</h1>
                                     <p>
-                                        Exciting news! A new feedbacj=k form submission has been successfully received via our website.
+                                        Exciting news! A new feedback form submission has been successfully received via our website.
                                     </p>
                                     <p>
                                         The details are as follows:
